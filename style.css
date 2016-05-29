@@ -1,0 +1,328 @@
+/*
+Theme Name:		Crafty Fusion
+Theme URI:		http://craftythemes.com
+Description:    CraftyFusion is an excellent laywer wordpress theme by craftythemes.com
+Author:         CraftyThemes
+Author URI:		http://craftythemes.com
+Template:       Azkaban
+Version:        1.1
+*/
+
+@import url("../Azkaban/style.css");
+
+body { 
+	color: #454545;
+	background-color: none;
+	background: url(images/bg1.jpg) center top no-repeat;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 24px;
+	font-size: 16px;
+} 
+
+/***********************************************************/
+/* Typography */
+/***********************************************************/
+h1, h2, h3, h4, h5, h6 {
+	color: #454545;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	margin: 10px 0px;
+	padding: 0;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: 28px;
+    line-height: 28px;
+}
+
+h2 {
+	font-size: 22px;
+    line-height: 22px;
+}
+
+h3 {
+	font-size: 16px;
+    line-height: 20px;
+}
+
+a, .az-posttitle a {
+	color: #888;
+}
+
+a:hover, .az-posttitle a:hover {
+	color: #222;
+}
+
+/*************************************************************************/
+/* Topbar */
+/*************************************************************************/
+#az-topbarwrap {
+	background-color: #538300;
+	color: #fff;
+	min-height: 40px;
+	font-size: 0.9em;
+}
+
+.az-topbarsocialsleft a, .az-topbarsocialslright a {
+	color: #8BC318;
+}
+
+.az-topbarsocialsleft a:hover, .az-topbarsocialslright a:hover {
+	color: #fff;
+}
+
+/*************************************************************************/
+/* Header */
+/*************************************************************************/
+#az-headerwrap {
+	border: none;
+}
+
+/*************************************************************************/
+/* Navigation */
+/*************************************************************************/
+#az-navigationwrap {
+	background: none;
+	border-bottom: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	min-height: 80px;
+	font-size: 1.1em;
+}
+
+#az-navigationright {
+	float: right;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.az-menualert {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	line-height: 80px;
+}
+
+.az-menualertr {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+}
+
+.az-sitenav {
+	height: 80px;
+}
+
+.az-sitenav a {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	line-height: 80px;
+}
+
+.az-sitenavr a {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+}
+
+.az-sitenav li.current-menu-item a, .az-sitenavr li.current-menu-item a {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+}
+
+.az-sitenav li:hover > a,
+.az-sitenavr li:hover > a {
+	color: #5359A7;
+	text-shadow: 1px 1px #000;
+}
+
+.az-sitenav ul ul li:hover > a,
+.az-sitenavr ul ul li:hover > a {
+	color: #5359A7;
+	text-shadow: none;
+}
+
+/* Second level */
+.az-sitenav ul ul, .az-sitenavr ul ul {
+	background-color: #334374;
+}
+
+.az-sitenav ul ul {
+	top: 80px;
+}
+
+.az-sitenavr ul ul {
+	top: 100px;
+}
+
+.az-sitenav ul ul li, .az-sitenavr ul ul li {
+	color: #548301;
+	border-top: 1px solid #18315A;
+}
+
+.az-sitenav ul ul a, .az-sitenavr ul ul a {
+	color: #fff;
+	text-shadow: none;
+}
+
+.az-sitenav li.current-menu-item ul a, .az-sitenavr li.current-menu-item ul a {
+	color: #fff;
+	text-shadow: none;
+}
+
+.az-sitenav ul li:hover > ul, .az-sitenavr ul li:hover > ul {
+	text-shadow: none;
+}
+
+/*************************************************************************/
+/* Container */
+/*************************************************************************/
+#az-containerwrap {
+	background-color: #fff;
+}
+
+/*************************************************************************/
+/* Sections */
+/*************************************************************************/
+.az-sectiontitle {
+    line-height: 40px;
+}
+
+.az-sidebarsectiontitle span {
+	color: #334374;
+}
+
+/*************************************************************************/
+/* Post Content Section */
+/*************************************************************************/
+.az-postmeta {
+	border-top: 1px solid #E0DEDE;
+	border-bottom: 1px solid #E0DEDE;
+}
+
+#az-pagetitlewrap {
+	background: #f7f7f7;
+}
+
+/*************************************************************************/
+/* Sidebar */
+/*************************************************************************/
+#az-sidebar ul li, #az-sidebar ul li ul li {
+	border-bottom: none;
+}
+
+/*************************************************************************/
+/* Footer Widgets */
+/*************************************************************************/
+#az-footerwidgetwrap {
+	color: #fff;
+	background-color: #16252C;
+}
+
+#az-footerwidgets h2 {
+	font-weight: 300 !important;
+	color: #f1f1f1;
+	text-shadow: -1px -1px 0px #304854;
+}
+
+#az-footerwidgets h3, #az-footerwidgets h4, #az-footerwidgets h5, #az-footerwidgets h6  {
+	color: #f1f1f1;
+}
+
+#az-footerwidgets .widget_title span {
+	background: none repeat scroll 0 0 #16252C;
+	padding-right: 5px;
+}
+
+#az-footerwidgets a {
+	color: #D3F84E;
+}
+
+#az-footerwidgets a:hover {
+	color: #fff;
+}
+
+/*************************************************************************/
+/* Footer */
+/*************************************************************************/
+#az-footerwrap {
+	background-color: none;
+	background: url(images/bg1.jpg) center bottom no-repeat;
+	font-size: 1em;
+}
+
+#az-footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#az-footer p {
+	color: #fff;
+	text-shadow: 1px 1px #222;
+}
+
+#az-footer a {
+	color: #8ac317;
+	text-decoration: none;
+}
+
+#az-footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+/*************************************************************************/
+/* Mobile Navigation Styles */
+/*************************************************************************/
+nav {  
+	background-color: #334374 !important;
+}
+
+nav a {  
+	color: #fff !important;
+}  
+    
+nav li a {  
+	border-right: 1px solid #5D478F !important;
+	border-left: 1px solid #5D478F !important;
+}  
+
+nav li:nth-child(even) a {  
+	border-left: 0px solid #5D478F !important;
+}  
+
+nav li:last-child a {  
+	border-right: 1px solid #5D478F !important;
+}  
+    
+nav a:hover, nav a:active {  
+	color: #5D478F !important;
+}  
+
+@media screen and (max-width: 801px) {  
+	#az-navigationwrap {
+		background-color: #334374 !important;
+		min-height: 40px;
+	}
+	nav li a {  
+		border-bottom: 1px solid #5D478F !important;
+	}
+}  
+@media only screen and (max-width : 480px) {  
+	#az-navigationwrap {
+		background-color: #334374 !important;
+	}
+}
+@media only screen and (max-width : 320px) {  
+	#az-navigationwrap {
+		background-color: #334374 !important;
+	}
+	nav li a {  
+		border-bottom: 1px solid #5D478F !important;
+	}  
+	nav li:nth-child(even) a {  
+		border-left: 1px solid #5D478F !important;
+	}
+}  
+
+#az-fullwidthboxwrap {
+	margin-top: -80px;
+}
